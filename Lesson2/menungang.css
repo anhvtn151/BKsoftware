@@ -1,0 +1,66 @@
+/*==Reset CSS==*/
+* {
+    margin: 0;
+    padding: 0;
+  }
+   
+  /*==Style cơ bản cho website==*/
+  body {
+    font-family: sans-serif;
+    color: #333;
+  }
+  
+/* Chỉnh sửa menu */
+#menu ul {
+    background-color: rgb(179, 230, 200);
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu li {
+    color: brown;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: -5px;
+    font-size: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: brown;
+    display: block;
+}
+
+/* Hiệu ứng nền */
+#menu a:hover {
+    background-color: #fff;
+    color: brown; 
+}
+
+/* Ẩn sub-menu */
+.sub-menu li {
+    display: none;
+  }
+
+/* Đưa menu li về kiểu relative để trở thành menu mẹ */
+#menu li {
+    position: relative;
+}
+
+/* Sub-menu luôn nằm trong phạm vi menu mẹ */
+.sub-menu {
+    display: none;
+    position: absolute;
+   }
+
+/* Sub-menu hiển thị ra khi ta rê chuột vào menu mẹ */
+#menu li:hover .sub-menu {
+    display: block;
+   }
+
+/* Xóa margin không cần thiết */
+.sub-menu li {
+    margin-left: 0 !important;
+   }   

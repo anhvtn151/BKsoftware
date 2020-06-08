@@ -1,0 +1,41 @@
+.layer{
+    width: 800px;
+    height: 500px;
+    position: relative;
+}
+
+.layer .layer1 {
+    width: 800px;
+    height: 500px;
+}
+
+.layer .layer2 {
+    width: 800px;
+    height: 500px;
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover .layer2 {
+    opacity: 0.5;
+}
+
+.layer .layer3 {
+    color: white;
+    font-size: 150px;
+    position: absolute;
+    opacity: 0;
+    top: 150px;
+    left: 300px;
+    transition: 0.5s;
+    transform: scale(0);
+}
+
+.layer:hover .layer3 {
+    opacity: 1;
+    transform: scale(1);
+}

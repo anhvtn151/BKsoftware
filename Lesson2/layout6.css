@@ -1,0 +1,134 @@
+body{
+    font-family: Arial, Tahoma;
+    font-size: 12px;
+}
+
+#main{
+    width: 1000px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#head{
+    width: 1000px;
+    height: 130px;
+    background-color: cadetblue;
+    margin-bottom: 5px;
+}
+
+#head-link{
+    width: 1000px;
+    height: 150px;
+    margin-bottom: 5px;
+    display: grid;
+    grid-template-columns: 300px 696px;
+    grid-column-gap: 5px;
+}
+
+#hlink1{
+    display: grid;
+    grid-template-rows: 73px 73px;
+    grid-row-gap: 5px;
+}
+
+#hlink11{
+
+    background-color:rgb(150, 116, 73);
+}
+
+#hlink12{
+    background-color: #a480d3;
+}
+
+#hlink2{
+    background-color: rgb(36, 71, 71);
+}
+
+#content{
+    width: 1000px;
+    margin-bottom: 5px;
+}
+
+#content1{
+    width: 1000px;
+    height: 130px;
+    margin-bottom: 5px;  
+    display: grid;
+    grid-template-columns: 248px 247px 247px 248px;
+    grid-template-rows: 63px 63px;
+    grid-gap: 5px;
+}
+
+#content11{
+    background-color: #75c462;
+}
+
+#content12{
+    background-color: #75c462;
+}
+
+#content13{
+    background-color: #75c462;
+}
+
+#content14{
+    background-color: #75c462;
+}
+
+#content15{
+    background-color: #75c462;
+}
+
+#content16{
+    background-color: #75c462;
+}
+
+#content17{
+    background-color: #75c462;
+}
+
+#content18{
+    background-color: #75c462;
+}
+
+#content2{
+    width: 1000px;
+    height: 130px;
+    display: grid;
+    grid-template-columns: 499px 499px;
+    grid-column-gap: 5px;
+    margin-bottom: 5px;    
+}
+
+#content21{
+    background-color: #24471b;
+}
+
+#content22{
+    background-color: #24471b;
+}
+
+#content3{
+    width: 1000px;
+    height: 130px;
+    display: grid;
+    grid-template-columns: 499px 499px;
+    grid-column-gap: 5px;
+    margin-bottom: 5px;    
+}
+
+#content31{
+    background-color: #a480d3;
+}
+
+#content32{
+    background-color: #a480d3;
+}
+
+#footer{
+    width: 1000px;
+    height: 40px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(243, 85, 85);
+}

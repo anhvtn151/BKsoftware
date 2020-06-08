@@ -1,0 +1,15 @@
+.myslide {
+    width: 1536px;
+    height: 760px;
+}
+
+.myslide img {
+    width: 1536px;
+    height: 760px;
+}
+
+.myslide .carousel-indicators {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+}

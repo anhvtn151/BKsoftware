@@ -1,0 +1,54 @@
+
+/* Chỉnh sửa menu */
+#menu ul {
+    background: #8AD385;
+    width: 250px;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+}
+
+#menu li {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 1em;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    width: 150px;
+}
+
+/* Hiệu ứng nền */
+#menu li:hover {
+    background-color: #CDE2CD;
+}
+
+/* Đưa menu li về kiểu relative để trở thành menu mẹ */
+#menu li {
+    position: relative;
+}
+
+/* Đưa sub-menu về sát menu mẹ, nằm trong menu li */
+#menu .sub-menu {
+    position: absolute;
+    left: 250px;
+    top: 0;
+}
+
+/* Ẩn sub-menu, chỉ hiện ra khi rê chuột vào menu mẹ */
+#menu .sub-menu {
+    position: absolute;
+    left: 252px;
+    top: 0;
+    display: none;
+}
+
+#menu li:hover .sub-menu {
+    display: block;
+}
